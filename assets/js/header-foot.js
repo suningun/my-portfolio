@@ -20,18 +20,18 @@ let header=`
                     <li class="nav-item">
                         <a class="nav-link fw-semibold" href="index.html">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" href="#about-me">About Me</a>
+                    </li>
                     <li class="nav-item dropdown fw-semibold"><a class="nav-link dropdown-toggle" href="" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">Resume</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="volunteering.html">Volunteering</a></li>
-                        <li><a class="dropdown-item" href="achievements.html">Achievements</a></li>
-                        <li><a class="dropdown-item" href="educations.html">Educations</a></li>
-                        <li><a class="dropdown-item" href="experiences.html">Experiences</a></li>
-                        <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+                        <li><a class="dropdown-item" href="#my-volunteering">Volunteering</a></li>
+                        <li><a class="dropdown-item" href="#my-achievements.html">Achievements</a></li>
+                        <li><a class="dropdown-item" href="#my-education">Educations</a></li>
+                        <li><a class="dropdown-item" href="my-experiences">Experiences</a></li>
+                        <li><a class="dropdown-item" href="#skills">Skills</a></li>
                     </ul>
-                    <li class="nav-item">
-                        <a class="nav-link fw-semibold" href="about-me.html">About Me</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link fw-semibold" href="contact.html">Contact</a>
                     </li>
