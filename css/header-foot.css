@@ -1,0 +1,151 @@
+.body-primary{
+    background-color: #e5ecfb;
+}
+.btn {
+    padding-top: 0.5rem !important;
+    background-color: #4B668E;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #eceff3;
+    color: #4B668E;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn a:hover {
+    color: #4B668E;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-item a{
+    color: black;
+}
+
+
+.nav-item a:hover {
+    color:  #4B668E;
+}
+
+.dropdown-menu {
+    min-width: 12rem;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+/* Slightly bigger padding for items */
+.dropdown-item {
+    padding-top: 0.5rem 1.25rem;
+    transition: background-color 0.15s ease;
+}
+/* Hover effect for dropdown items */
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #4B668E;
+    color: white !important;
+}
+
+/* Smooth dropdown animation */
+.dropdown-menu.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.contact {
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer-icons a {
+    margin-right: 1rem;
+    color: #4B668E;
+    font-size: 1.5rem;
+    gap: 10px;
+}
+.footer-icons a:hover {
+    color: rgb(60, 54, 54);
+}
+.footer {
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+}
+.contact-info {
+    padding: 15px;
+}
+
+
+/* General adjustments (smallest screens) */
+@media (max-width: 575.98px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .footer-icons {
+        justify-content: center !important;
+    }
+
+    .contact-info {
+        text-align: center !important;
+        margin-bottom: 1rem;
+    }
+
+    footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    }
+
+/* Small devices (≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-nav .nav-link {
+        font-size: 0.95rem;
+    }
+
+    .footer-icons a {
+        font-size: 1.2rem;
+    }
+
+    .contact-info {
+        font-size: 0.95rem;
+    }
+    }
+
+/* Medium devices (≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    .footer-icons i {
+        font-size: 1.2rem;
+    }
+
+    .contact-info {
+        font-size: 1rem;
+    }
+    }
+
+/* Large devices (≥992px) */
+@media (min-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    .contact-info {
+        font-size: 1rem;
+    }
+
+    .footer-icons a {
+        font-size: 1.25rem;
+    }
+    }
+    
