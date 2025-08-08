@@ -31,17 +31,19 @@ const education = [
     institution: "American University Of Phnom Penh | AUPP",
     date: "2025-2029",
   },
-  {
-    image: "assets/images/soc.png",
-    major: "Coding Program",
-    institution: "Sisters Of Code",
-    date: "2021-2025",
-  },
+
   {
     image: "assets/images/crp.jpg",
     major: "Grade 7-12",
     institution: "Chamrouen Phal High School",
     date: "2018-2024",
+  },
+
+    {
+    image: "assets/images/soc.png",
+    major: "Coding Program",
+    institution: "Sisters Of Code",
+    date: "2021-2025",
   },
 ];
 let educationContent = "";
