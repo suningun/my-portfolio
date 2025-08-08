@@ -32,7 +32,7 @@ const education = [
     date: "2025-2029",
   },
   {
-    image: "assets/images/soc.png",
+    image: "assets/images/soc.PNG",
     major: "Coding Program",
     institution: "Sisters Of Code",
     date: "2021-2025",
