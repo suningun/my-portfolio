@@ -6,74 +6,57 @@ body {
         background-color: #f8f9fa;
     }
 
-.btn {
-        padding-top: 0.5rem !important;
-        background-color: #4B668E;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        max-width: 130px;
-        height: 40px;
-        cursor: pointer;
-    }
-.btn a {
-        color: white;
-        text-decoration: none;
-    }
-.btn:hover {
-        background-color: #ffffff;
-    }
 .form-label {
         text-align: left !important;
     }
 
     
 body {
-font-family: 'Segoe UI', sans-serif;
-margin: 0;
-padding: 0;
-background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
 }
 
 .form-container {
-max-width: 90%;
-margin: 40px auto;
-padding: 10px;
-background: #fff;
-border-radius: 15px;
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 90%;
+        margin: 40px auto;
+        padding: 10px;
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .input-group {
-display: flex;
-align-items: center;
-background-color: #e6edfd;
-border: 1px solid #ccc;
-border-radius: 8px;
-padding: 10px 12px;
-margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #e6edfd;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 20px;
 
 }
 
 .input-group:focus-within {
-border-color: rgb(19, 0, 128);
+    border-color: rgb(19, 0, 128);
 }
 
 .input-group i {
-margin-right: 10px;
-font-size: 1.1rem;
-color: #333;
-min-width: 20px;
+    margin-right: 10px;
+    font-size: 1.1rem;
+    color: #333;
+    min-width: 20px;
 }
 
 .input-group input,
 .input-group textarea {
-border: none;
-background: transparent;
-outline: none;
-flex: 1;
-font-size: 1rem;
-color: #333;
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
 }
 
 textarea {
@@ -81,7 +64,7 @@ resize: vertical;
 }
 
 
-/* 🔁 Responsive Design */
+/* Responsive Design */
 @media (max-width: 600px) {
 .form-container {
     margin: 20px;

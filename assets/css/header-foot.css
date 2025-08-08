@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .body-primary{
     background-color: #e5ecfb;
 }
@@ -6,7 +9,7 @@
     background-color: #4B668E;
     color: white;
     border: none;
-    width: 150px;
+    width: auto;
     height: 40px;
     cursor: pointer;
 }
@@ -28,6 +31,34 @@
     font-weight: bold;
     text-decoration: none;
 }
+
+.btn-secondary {
+    padding: 5px;
+    color: black;
+    font-size: small;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    border: rgb(144, 74, 24);
+    border: solid;
+    border-width: thin;
+}
+
+.btn-secondary:hover {
+    background-color: #4B668E;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-secondary a:hover {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
 .nav-item a{
     color: black;
 }
@@ -58,6 +89,62 @@
     opacity: 1;
 }
 
+.box {
+
+    padding: 12px 18px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    background:#bdcade;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s;
+    pointer-events: none;
+    border-radius: 0.5rem;
+}
+
+.dropdown:hover .dropdown-content {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.dropdown-content a {
+    color: #374151;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #f3f4f6;
+}
+
+h5 {
+    color: #4B668E !important;
+}
+
 
 .contact {
     margin-right: 1rem;
@@ -67,8 +154,8 @@
 .footer-icons a {
     margin-right: 1rem;
     color: #4B668E;
-    font-size: 1.5rem;
-    gap: 10px;
+    font-size: 2rem;
+    gap: 5px;
 }
 .footer-icons a:hover {
     color: rgb(60, 54, 54);

@@ -27,7 +27,7 @@ let header=`
                         data-bs-toggle="dropdown" aria-expanded="false">Resume</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#my-volunteering">Volunteering</a></li>
-                        <li><a class="dropdown-item" href="#my-achievements.html">Achievements</a></li>
+                        <li><a class="dropdown-item" href="#my-achievement">Achievements</a></li>
                         <li><a class="dropdown-item" href="#my-education">Educations</a></li>
                         <li><a class="dropdown-item" href="my-experiences">Experiences</a></li>
                         <li><a class="dropdown-item" href="#skills">Skills</a></li>
@@ -45,7 +45,7 @@ let footer = `<div class="container-fluid bg-light">
         <div class=" container-fluid py-4 px-5">
         <div class="row">
             <div class="col-sm-5 mb-5 mb-sm-0 contact-info">
-                <p class="fw-bold fs-5">About Me</p>
+                <p class="fw-bold fs-5">Let's Get To Know ME</p>
                 <p class="text-muted">Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
                 <p class="text-muted">Keep Rising 🚀. Connect with me over live chat!</p>
             </div>
@@ -60,7 +60,7 @@ let footer = `<div class="container-fluid bg-light">
 
             <div class="col-sm-3 mb-3 mb-sm-0 text-sm-start contact-info">
                 <p class="fw-bold fs-5">Follow</p>
-                <div class="footer-icons d-flex justify-content-sm-start fs-4">
+                <div class="footer-icons d-flex justify-content-sm-start fs-5">
                     <a href="https://github.com/suningun" target="_blank"><i class="bi bi-github"></i></a>
                     <a href="https://web.facebook.com/suning0.0" target="_blank"><i class="bi bi-facebook"></i></a>
                     <a href="https://www.linkedin.com/in/suning-un-85a439344/" target="_blank"><i class="bi bi-linkedin"></i></a>
