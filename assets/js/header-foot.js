@@ -1,5 +1,5 @@
 let header=`
-                <div class="container-fluid bg-light p-3 sticky-top" style="width: 100%;">
+                <div class="container-fluid bg-light p-3 navbar navbar-expand-lg" style="width: 100%;">
                 <a class="navbar-brand" href="index.html">
                     <i class="bi bi-emoji-sunglasses"></i>
                     <span class="fw-semibold">Suning Un</span>
