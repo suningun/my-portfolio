@@ -26,11 +26,12 @@ let header=`
                     <li class="nav-item dropdown fw-semibold"><a class="nav-link dropdown-toggle" href="" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">Resume</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#my-volunteering">Volunteering</a></li>
-                        <li><a class="dropdown-item" href="#my-achievement">Achievements</a></li>
+                        <li><a class="dropdown-item" href="#skills">Skills</a></li>
                         <li><a class="dropdown-item" href="#my-education">Educations</a></li>
                         <li><a class="dropdown-item" href="my-experiences">Experiences</a></li>
-                        <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                        <li><a class="dropdown-item" href="#my-achievement">Achievements</a></li>
+                        <li><a class="dropdown-item" href="#myProjects">Projects</a></li>
+                        
                     </ul>
                     <li class="nav-item">
                         <a class="nav-link fw-semibold" href="contact.html">Contact</a>

@@ -12,7 +12,7 @@ const skill = [
 let content = "";
 for (let i = 0; i < skill.length; i++) {
   content += `
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 d-flex justify-content-center mb-4">
+        <div class="col-4 col-sm-4 col-md-4 col-lg-2 d-flex justify-content-center mb-4">
         <div class="card" style="height: 100px; width: 100px; overflow: hidden;">
             <div class="card-body text-center d-flex flex-column align-items-center justify-content-center p-2">
             <div class="img-container mb-2">
@@ -90,7 +90,8 @@ for (let i = 0; i < myProjects.length; i++) {
                                 <div class="card-body">
                                     <h5 class="card-title">${myProjects[i].title}</h5>
                                     <p class="card-text">${myProjects[i].text}</p>
-                                    <a href="${myProjects[i].link}" target="_blank"><i class="bi bi-link"></i></a>
+                                    <a href="${myProjects[i].link}" target="_blank" class="btn"><i class="bi bi-eye"></i> View</a>
+
                                 </div>
                             </div>
                           </div>`;
